@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my project</title>
     <link rel="stylesheet" href="assets/materialize/css/materialize.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
-    <nav>
+    <nav class="purple lighten-1 z-depth-2">
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo">Logo</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">merge_type</i></a>
+          <a href="#!" class="blue-text">home</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger light-blue-text"><i class="material-icons">merge_type</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="sass.html">Sass</a></li>
             <li><a href="badges.html">Components</a></li>
@@ -23,10 +23,20 @@
       </nav>
     
       <ul class="sidenav" id="mobile-demo">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">Javascript</a></li>
-        <li><a href="mobile.html">Mobile</a></li>
+        <li><div class="user-view">
+          <div class="background">
+            <img src="images/01.jpg" class="w_100">
+          </div>
+          <a href="#user"><img class="circle" src="images/02.jpg"></a>
+          <a href="#name"><span class="white-text name">Mohsen Saheri</span></a>
+          <a href="#email"><span class="white-text email">lkjvcde@gmail.com</span></a>
+        </div></li>
+        <li><a href="#!"><i class="material-icons">insert_link</i>First Link With Icon</a></li>
+        <li><a href="#!"><i class="material-icons">insert_link</i>right now</a></li>
+        <li><a href="#!">Second Link</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
       </ul>
     
 
