@@ -2,5 +2,21 @@
     width: 100% !important;
 }
 .c100{
-    color: red;
+    color: blue;
 }
+.flex{
+        flex-direction: column;
+        display: flex;
+        /* flex-wrap: nowrap; */
+        /* align-content: flex-end; */
+        /* justify-content: space-evenly; */
+        max-width: 400px;
+        /* align-content: center; */
+        /* justify-content: center; */
+        padding: 20px;
+        /* justify-items: center; */
+        
+    }
+    .m-t{
+        margin-top: 20px;
+    }
