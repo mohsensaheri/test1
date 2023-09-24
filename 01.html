@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01</title>
+    <link rel="stylesheet" href="assets/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav class="purple lighten-1 z-depth-2 top-navbar">
+        <div class="nav-wrapper">
+          <a href="#!" class="blue-text hide-on-med-and-up">user management</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger light-blue-text"><i class="material-icons">merge_type</i></a>
+          <ul class="hide-on-med-and-down">
+            <li><a href="https://mockupiran.com"  target="_blank" class="blue-text">home</a></li>
+            <li><a href="badges.html" class="blue-text">Uder Management</a></li>
+            <li><a href="https://codeyad.com" class="blue-text">codeyad</a></li>
+            <li><a href="mobile.html" class="blue-text">AQ fast</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <ul class="sidenav" id="mobile-demo">
+        <li><div class="user-view">
+          <div class="background">
+            <img src="images/01.jpg" class="w_100">
+          </div>
+          <a href="#user"><img class="circle" src="images/02.jpg"></a>
+          <a href="#name"><span class="white-text name">Mohsen Saheri</span></a>
+          <a href="#email"><span class="white-text email">lkjvcde@gmail.com</span></a>
+        </div></li>
+        <li><a href="#!"><i class="material-icons">insert_link</i>First Link With Icon</a></li>
+        <li><a href="#!"><i class="material-icons">insert_link</i>right now</a></li>
+        <li><a href="#!">Second Link</a></li>
+        <li><div class="divider"></div></li>
+        <li><a class="subheader">Subheader</a></li>
+        <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+        <li><a class="waves-effect" href="#!">users</a></li>
+      </ul>
+      <!-- _______add user_____ -->
+      <section id="top-actions-section" class="row m-b-0">
+        <div class="p-t-20 p-l-30 col s12 m4 l2">
+            <button class="waves-effect waves-light btn   lime darken-2 b-r-5 p-l-30">
+                <i class="material-icons p-r-t-7">add</i>
+                add user
+            </button>
+        </div>
+        <!-- ___________search section___________ -->
+        <div class="row">
+          <div class="input-field col s12 m8 l8">
+            <input  id="search" type="text" class="validate">
+            <label for="search">
+              <i class="material-icons p-r-t">
+              search
+              </i>
+              search</label>
+          </div>
+        </div>
+        <div class="col l2 hide-on-med-and-down"></div>
+      </section>
+<!-- _________karbaran__________-->
+<section class="user-list-section">
+<ul class="collapsible">
+  <li class="user-list-item">
+ <div class="collapsible-header">
+  <i class="material-icons blue-text text-darken-4 user-list-arrow-icon">verified_user</i>
+  Mohsen Saheri
+ </div>
+ <div class="collapsible-body">
+  <div>
+    <span class="f-w-100">phone number :</span>
+    <span>09190153204</span>
+  </div>
+  <div>
+    <span class="f-w-100">address: </span>
+    <span>Tehran, example street</span>
+  </div>
+  <div>
+    <span class="f-w-100">e-mail: </span>
+    <span>lkjvcde@gmail.com</span>
+  </div>
+  <div>
+    <span class="f-w-100">action: </span>
+    <span class="material-icons m-t-5 orange-text">delete_forever</span>
+    <span class="material-icons red-text">edit</span>
+  </div>
+ </div>
+  </li>
+  <li>
+    <div class="collapsible-header">
+     <i class="material-icons">verified_user</i>
+     Mohsen Saheri
+    </div>
+    <div class="collapsible-body">
+     <div>
+       <span class="f-w-100">phone number :</span>
+       <span>09190153204</span>
+     </div>
+     <div>
+       <span class="f-w-100">e-mail: </span>
+       <span>lkjvcde@gmail.com</span>
+     </div>
+    </div>
+     </li>
+</ul>
+</section>
+
+          
+
+ <script src="assets/materialize/js/materialize.min.js"></script>
+ <script src="assets/js/main.js"></script>
+ <script src="assets/js/users.js"></script>
+</body>
+</html>

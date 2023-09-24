@@ -20,3 +20,51 @@
     .m-t{
         margin-top: 20px;
     }
+    .b-r-5{
+        border-radius: 5rem;
+    }
+    @media(min-width:600px){
+        .top-navbar{
+          
+          box-shadow: 0 0 30px gray;
+        
+            }
+            #top-actions-section{
+                display: flex;
+                align-items: center;
+        }
+    }
+    .p-l-30{
+        padding-left: 30px;
+    }
+    .p-t-20{
+        padding-top: 20px;
+    }
+    .p-r-t{
+        position: relative;
+        top: 9px;
+    }
+    .p-r-t-7{
+        position: relative;
+        top: 7.5px;
+    }
+    .f-w-100{
+        font-weight: 600;
+    }
+    
+    .user-list-item.active .user-list-arrow-icon{
+        transform: rotate(180deg);
+    }
+    .user-list-item .user-list-arrow-icon{
+        transition: all ease 0.5s;
+    }
+    .m-b-0{
+        margin-bottom: 0px;
+    }
+    .m-t-5{
+        margin-top: 5px;
+    }
+    .user-list-item.active{
+        background-color: aqua;
+    }
+
