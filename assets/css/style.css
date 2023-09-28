@@ -64,7 +64,16 @@
     .m-t-5{
         margin-top: 5px;
     }
-    .user-list-item.active{
+    .user-list-item.active {
         background-color: aqua;
     }
+    .collapsible-header.active{
+        background-color: aqua;
+    }
+
+    .table.highlight > tbody > tr:hover{
+    background-color: #64b5f6;
+    }
+    
+
 

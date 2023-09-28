@@ -6,6 +6,7 @@
     <title>01</title>
     <link rel="stylesheet" href="assets/materialize/css/materialize.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/util.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
@@ -47,6 +48,7 @@
                 add user
             </button>
         </div>
+
         <!-- ___________search section___________ -->
         <div class="row">
           <div class="input-field col s12 m8 l8">
@@ -60,8 +62,59 @@
         </div>
         <div class="col l2 hide-on-med-and-down"></div>
       </section>
+      <!-- __________table_________ -->
+      <div class="col l2 hide-on-med-and-down"></div>
+        <div class="hide-on-med-and-down show-on-medium-and-up">
+          <table class="highlight centered container">
+            <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>name</th>
+                    <th>username</th>
+                    <th>email</th>
+                    <th>address</th>
+                    <th>action</th>
+                  </tr>
+            </thead>
+            <tbody>
+                 <tr>
+                   <td>1</td>
+                   <td>Mohsen Saheri</td>
+                   <td>MSaheri</td>
+                   <td>lkjvcde@gmail.com</td>
+                   <td>Majidieh shomali</td>
+                   <td>
+                       <i class="material-icons red-text">delete</i>
+                       <i class="material-icons blue-text">edit</i>
+                   </td>
+                 </tr>
+                 <tr>
+                  <td>1</td>
+                  <td>Mohsen Saheri</td>
+                  <td>MSaheri</td>
+                  <td>lkjvcde@gmail.com</td>
+                  <td>Majidieh shomali</td>
+                  <td>
+                      <i class="material-icons red-text">delete</i>
+                      <i class="material-icons blue-text">edit</i>
+                  </td>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Mohsen Saheri</td>
+                  <td>MSaheri</td>
+                  <td>lkjvcde@gmail.com</td>
+                  <td>Majidieh shomali</td>
+                  <td>
+                      <i class="material-icons red-text">delete</i>
+                      <i class="material-icons blue-text">edit</i>
+                  </td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
 <!-- _________karbaran__________-->
-<section class="user-list-section">
+<section class="user-list-section hide-on-med-and-up">
 <ul class="collapsible">
   <li class="user-list-item">
  <div class="collapsible-header">
@@ -88,9 +141,9 @@
   </div>
  </div>
   </li>
-  <li>
+  <li class="user-list-item">
     <div class="collapsible-header">
-     <i class="material-icons">verified_user</i>
+     <i class="material-icons blue-text text-darken-4 user-list-arrow-icon">verified_user</i>
      Mohsen Saheri
     </div>
     <div class="collapsible-body">
@@ -99,15 +152,42 @@
        <span>09190153204</span>
      </div>
      <div>
+       <span class="f-w-100">address: </span>
+       <span>Tehran, example street</span>
+     </div>
+     <div>
        <span class="f-w-100">e-mail: </span>
        <span>lkjvcde@gmail.com</span>
      </div>
+     <div>
+       <span class="f-w-100">action: </span>
+       <span class="material-icons m-t-5 orange-text">delete_forever</span>
+       <span class="material-icons red-text">edit</span>
+     </div>
     </div>
      </li>
+  
 </ul>
-</section>
 
-          
+</section>
+<!-- _________pagination_____________________________________________________________ -->
+<div class="container pagination-container p-l-9 p-r-9 p-t-15 p-b-10 flex-sb-m">
+  <div class="pagination-item-counts flex-l p-l-10 flex-l-m">
+    showing
+    <span class="m-r-5 m-l-5 max-w-50">
+       <input type="number" class="blue-text darken-2 no-border center-align m-b-0 value="10">
+    </span>
+    of
+    <span class="blue-text darken-2 m-l-5 m-r-5">
+      100
+    </span>
+  </div>
+  <div class="pagination-buttons">
+        <i class="material-icons blue darken-2 m-l-5 m-r-5 p-r-5 p-l-5 p-t-1 p-b-3 waves-effect waves-light white-text rounded_pill">keyboard_arrow_left</i>
+        <i class="material-icons blue darken-2 m-l-5 m-r-5 p-r-5 p-l-5 p-t-1 p-b-3 waves-effect waves-light white-text rounded_pill">keyboard_arrow_right</i>
+
+  </div>
+</div>
 
  <script src="assets/materialize/js/materialize.min.js"></script>
  <script src="assets/js/main.js"></script>
